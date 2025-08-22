@@ -1,0 +1,92 @@
+
+
+.app-container {
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  min-height: 100vh;
+  padding-bottom: 40px;
+  color: #2c3e50;
+}
+
+.navbar {
+  margin-bottom: 2rem;
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  color: #fff !important;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+  margin-right: 1rem;
+}
+
+.navbar-nav .nav-link.active {
+  color: #ffd700 !important;
+}
+
+.table {
+  background: #f6f9ff;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  color: #34495e;
+}
+
+.table thead {
+  background: #007bff;
+  color: #fff;
+}
+
+.card {
+  margin-bottom: 2rem;
+  background: #fff;
+  border: 1px solid #e3e3e3;
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+.modal-content {
+  border-radius: 0.5rem;
+  background: #f6f9ff;
+}
+
+.btn {
+  margin: 0.2rem;
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+  color: #fff;
+  border: none;
+  font-weight: 500;
+}
+
+.btn:hover {
+  background: linear-gradient(90deg, #00c6ff 0%, #007bff 100%);
+  color: #ffd700;
+}
+
+.heading {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  color: #007bff;
+  text-shadow: 1px 1px 2px #cfdef3;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #00c6ff;
+  text-decoration: underline;
+}
+
+.logo {
+  height: 40px;
+  margin-right: 12px;
+}
